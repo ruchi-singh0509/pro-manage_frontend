@@ -1,0 +1,161 @@
+.TaskPagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.TaskPage {
+    width: 654px;
+    /* height: 96%; */
+    padding: 62px, 33px, 62px, 33px;
+    border-radius: 12px;
+    border: 2px;
+    gap: 50px;
+    border: 2px solid #edf5fe;
+}
+
+.TaskCard {
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.TaskCard h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+}
+
+.TaskCard p {
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.TaskCard h4 {
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.TaskCard ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    height: 30vh;
+    overflow-y: scroll;
+    width: 98%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #9cb7c5;
+}
+
+.TaskCard li {
+    width: 90%;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #e2e2e2;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.TaskPriority {
+    position: relative;
+    left: 15px;
+}
+
+.Checklist {
+    margin-right: 10px;
+}
+
+.TaskCheckList {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.dropdown {
+    width: 30px;
+    height: 20px;
+    border: none;
+}
+
+.Track {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.trackbtns {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.btn {
+    margin-left: 5px;
+    width: 52px;
+    height: 22px;
+    padding: 5px, 10px, 5px, 10px;
+    background: #eeecec;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+}
+
+.dueDate {
+    width: 52px;
+    height: 22px;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}

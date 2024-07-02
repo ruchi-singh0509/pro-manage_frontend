@@ -1,0 +1,36 @@
+.bannerContainer {
+    height: 100vh;
+    width: 60%;
+    background-color: #17a2b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 304px;
+    width: 304px;
+    border-radius: 50%;
+    background-color: #317f8b;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+
+.img {
+    z-index: 1;
+}
+
+.bannerContainer h1 {
+    color: #fff;
+    margin-top: 15px;
+    font-family: Open Sans, sans-serif;
+}
+
+.bannerContainer p {
+    color: #fff;
+
+    font-family: Open Sans, sans-serif;
+}
+

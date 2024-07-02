@@ -1,0 +1,73 @@
+.SettingContainer {
+    margin-left: 10px;
+}
+
+.SettingsForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SettingsForm input {
+    width: 403px;
+    height: 55px;
+    border: 1.38px solid #d0d0d0;
+    border-radius: 11px;
+    padding-left: 2rem;
+    font-size: 19px;
+    padding-left: 4rem;
+    margin-top: 10px;
+}
+
+.userInput {
+    margin: 10px 0;
+    position: relative;
+}
+
+.inputIcon {
+    width: 28.08px;
+    height: 28.08px;
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.ToggleIcon {
+    width: 28.08px;
+    height: 28.08px;
+    position: absolute;
+    top: 60%;
+    right: 6%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.SettingsButton {
+    width: 476px;
+    height: 55px;
+    background-color: #17a2b8;
+    border-radius: 40px;
+    color: #fff;
+    border: 1px solid#fff;
+    margin-top: 20px;
+    font-family: Open Sans, sans-serif;
+    cursor: pointer;
+}
+
+.errormessage {
+    height: 20px;
+    width: 454px;
+    color: #f00;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 0 5px;
+    position: relative;
+    bottom: 0px;
+}

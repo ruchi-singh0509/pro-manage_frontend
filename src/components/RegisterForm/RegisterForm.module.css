@@ -1,0 +1,108 @@
+.RegisterContainer {
+    height: 100vh;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterHeader {
+    font-family: Open Sans;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.RegisterForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInput {
+    margin: 10px 0;
+    position: relative;
+}
+
+.userInput input {
+    width: 403px;
+    height: 55px;
+    border: 1.38px solid #d0d0d0;
+    border-radius: 11px;
+    padding-left: 2rem;
+    font-size: 19px;
+    padding-left: 4rem;
+}
+
+.ToggleIcon {
+    width: 28.08px;
+    height: 28.08px;
+    position: absolute;
+    top: 49%;
+    right: 6%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.inputIcon {
+    width: 28.08px;
+    height: 28.08px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.errormessage {
+    height: 0;
+    width: 454px;
+    color: #f00;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 0 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+.submitbtn {
+    width: 403px;
+    height: 55px;
+    background-color: #17a2b8;
+    border-radius: 40px;
+    color: #fff;
+    border: 1px solid#fff;
+    margin-top: 20px;
+    font-family: Open Sans, sans-serif;
+    cursor: pointer;
+}
+
+.posttext {
+    color: #828282;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Loginbtn {
+    width: 403px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: 1.38px solid #17a2b8;
+    color: #17a2b8;
+    font-family: Open Sans, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

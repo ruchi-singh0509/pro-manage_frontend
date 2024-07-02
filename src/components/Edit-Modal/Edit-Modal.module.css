@@ -1,0 +1,208 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(47, 47, 47, 0.75);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modalContainer {
+    width: 666px;
+    height: 596px;
+    border-radius: 22px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    z-index: 2;
+}
+
+.star {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.star:after {
+    content: ' *';
+    color: red;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.modal input {
+    width: 96.9%;
+    height: 45px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding-left: 1rem;
+    font-size: 19px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #9b959f;
+}
+
+.Priorty {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Priorty button {
+    margin-left: 5px;
+    width: 25%;
+    height: 22px;
+    padding: 5px, 10px, 5px, 10px;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+}
+
+.Priorty button:focus {
+    background-color: #b3a9a9;
+}
+
+.footer {
+    position: absolute;
+    bottom: 8%;
+    width: 96.9%;
+    height: 7%;
+}
+
+.btns {
+    position: absolute;
+    top: 1px;
+    right: 55%;
+    font-size: 20px;
+}
+
+.addButton {
+    width: 588px;
+    height: 23px;
+    gap: 12px;
+    text-align: left;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #767575;
+}
+
+.addArea {
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.addTaskcontainer {
+    width: 96.9%;
+    height: 45px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+
+    font-size: 19px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #9b959f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TaskInput {
+    /* width: 90vw;
+    height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TaskInput input[type='checkbox'] {
+    height: 40%;
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.TaskInput input[type='text'] {
+    width: 60vw;
+    border: none;
+    padding: 0px;
+}
+
+#dueDate input {
+    width: 25px;
+    height: 45px;
+    border-radius: 12px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: transparent;
+}
+
+.Save {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    color: #17a2b8;
+    border: 2px solid #17a2b8;
+    width: 162.58px;
+    height: 45px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.Save:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.cancel {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    color: #cf3636;
+    border: 2px solid #cf3636;
+    margin-right: 20px;
+    width: 162.58px;
+    height: 45px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background-color: #cf3636;
+    color: #fff;
+}

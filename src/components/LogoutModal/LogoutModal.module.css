@@ -1,0 +1,83 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(47, 47, 47, 0.75);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modalContainer {
+    width: 335.19px;
+    height: 200px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    z-index: 2;
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title h1 {
+    font-size: 19px;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .footer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 20vw;
+    height: 45px;
+    margin: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logoutButton {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    color: #17a2b8;
+    border: 2px solid #17a2b8;
+}
+
+.logoutButton:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+#cancelBtn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    color: #cf3636;
+    border: 2px solid #cf3636;
+}
+
+#cancelBtn:hover {
+    background-color: #cf3636;
+    color: #fff;
+}
